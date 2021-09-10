@@ -43,8 +43,6 @@ When developing in localhost, Panelbear does not send events to avoid using your
 
 You can enable debug mode to send events when testing things locally. It will also log messages to console.
 
-You can now import, and use the Panelbear hook on your project.
-
 ```javascript
 // ./pages/_app.js
 
@@ -64,6 +62,10 @@ export default CustomApp;
 
 
 ## Changelog
+
+### 1.0.1
+
+- Update docs
 
 ### 1.0.0
 
