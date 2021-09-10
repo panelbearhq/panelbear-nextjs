@@ -1,0 +1,49 @@
+{
+  "name": "@panelbear/panelbear-nextjs",
+  "version": "1.0.0",
+  "description": "Official Panelbear integration for Next.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panelbearhq/panelbear-nextjs.git"
+  },
+  "keywords": [
+    "panelbear",
+    "analytics",
+    "next",
+    "nextjs",
+    "monitoring",
+    "metrics"
+  ],
+  "author": "Anthony N. Simon <anthony@panelbear.com>",
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --declaration",
+    "fmt": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "next": "^10 || ^11",
+    "react": "^16 || ^17"
+  },
+  "dependencies": {
+    "@panelbear/panelbear-js": "^1.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.20",
+    "next": "^11.1.2",
+    "prettier": "^2.2.1",
+    "react": "^17.0.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.0.5"
+  },
+  "bugs": {
+    "url": "https://github.com/panelbearhq/panelbear-nextjs/issues"
+  },
+  "homepage": "https://github.com/panelbearhq/panelbear-nextjs#readme"
+}
