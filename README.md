@@ -63,6 +63,10 @@ export default CustomApp;
 
 ## Changelog
 
+### 1.0.2
+
+- Upgrade deps
+
 ### 1.0.1
 
 - Update docs
