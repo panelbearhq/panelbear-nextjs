@@ -1,6 +1,6 @@
 {
   "name": "@panelbear/panelbear-nextjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Official Panelbear integration for Next.js",
   "repository": {
     "type": "git",

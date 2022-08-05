@@ -63,6 +63,10 @@ export default CustomApp;
 
 ## Changelog
 
+### 1.0.4
+
+- Add peer dependency support for React 18.
+
 ### 1.0.3
 
 - Update peer dependencies
@@ -86,6 +90,7 @@ If you discover any issue regarding security, please disclose the information re
 ## Contributors
 
 [@anthonynsimon](https://github.com/anthonynsimon)
+[@EndBug](https://github.com/EndBug)
 
 ## Alternatives
 
