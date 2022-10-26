@@ -63,6 +63,10 @@ export default CustomApp;
 
 ## Changelog
 
+### 1.0.5
+
+- Add peer dependency support for NextJS 13.
+
 ### 1.0.4
 
 - Add peer dependency support for React 18.

@@ -1,6 +1,6 @@
 {
   "name": "@panelbear/panelbear-nextjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Official Panelbear integration for Next.js",
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
     "lint": "tslint -p tsconfig.json"
   },
   "peerDependencies": {
-    "next": "^10 || ^11 || ^12",
+    "next": "^10 || ^11 || ^12 || ^13",
     "react": "^16 || ^17 || ^18"
   },
   "dependencies": {
