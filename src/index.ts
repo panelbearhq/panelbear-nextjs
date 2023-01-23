@@ -10,7 +10,7 @@ import { usePathname, useSearchParams } from 'next/navigation';
  * @param site the Panelbear site ID.
  * @param config the Panelbear tracker configuration object.
  */
-export default function usePanelbear(site: string, config: Panelbear.PanelbearConfig = {}) {
+export function usePanelbear(site: string, config: Panelbear.PanelbearConfig = {}) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
