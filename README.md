@@ -1,6 +1,6 @@
 # Panelbear Next.js integration
 
-> **Important:** As of version 2.0.0 of this package only Next.js 13 or later will be supported. For previous versions of Next.js please install version 1.0.5 of this package.
+> **Important:** As of version 2.0.1 of this package only Next.js 13 or later will be supported. For previous versions of Next.js please install version 1.0.5 of this package.
 
 Official [Panelbear](https://panelbear.com) integration for Next.js.
 
@@ -64,6 +64,10 @@ export default CustomApp;
 
 
 ## Changelog
+
+### 2.0.1
+
+- Fix breaking change to function export level
 
 ### 2.0.0
 
